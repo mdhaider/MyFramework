@@ -1,0 +1,21 @@
+<resources>
+    <string name="odataPostFix">odata/v1/anmobile/mobile/</string>
+    <string name="anAPIPath">/g2/ANMobile.aw/ad/odata/v1/anmobile/mobile/</string>
+    <string name="anMobileAuthenticatorPath">/ANMobileAuthenticator.aw/ad/</string>
+    <string name="anAuthenticatorPath">/Authenticator.aw/ad/</string>
+    <string name="anSupplierPath">/Supplier.aw/ad/</string>
+    <string name="anAPI2Path">/g2/ANMobile.aw/ad/</string>
+    <string name="mobileServerDeviceConfigPath">/api/deviceconfig/</string>
+    <string name="mobileServerOauthTokenPath">/oauth/token</string>
+    <string name="anPrivacyPath">/legal/ariba-privacy-statement</string>
+    <string name="anTOUPath">termsCenter?tou=supplier</string>
+    <string name="anTOUPath1">/termsofuse?access_token=</string>
+    <string name="mobileServerTOTPPath">totp/</string>
+    <string name="developmentANServer">svclq14.lab1.ariba.com</string>
+    <string name="releaseMobileServer">api.ariba.com</string>
+    <string name="releaseANServer">service.ariba.com</string>
+    <string name="developmentMobileServer">app1328.lab1.ariba.com:13130</string>
+    <string name="aribaServer">www.ariba.com</string>
+    <string name="mobileServerVersion">/v2</string>
+    <string name="anMobileTOUPath">http://app1328.lab1.ariba.com:13130/</string>
+</resources>

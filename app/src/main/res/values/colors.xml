@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#373737</color>
+    <color name="colorPrimaryDark">#252525</color>
+    <color name="textColorPrimary">#FFFFFF</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="signOutFromDrawer">#000000</color>
+    <color name="navigationBarBackgroundColor">#363636</color>
+    <color name="legalItemsDrawer">#292929</color>
+    <color name="navigationSubItemBackgroundColor">#F6F6F6</color>
+    <color name="userProfileHeading">#969696</color>
+    <color name="userProfileText">#363636</color>
+    <color name="dividerColor">#D7D7D7</color>
+    <color name="toobarColor">#16476F</color>
+    <color name="dialog_background_lessalpha">#7e000000</color>
+
+</resources>

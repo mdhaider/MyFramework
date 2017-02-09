@@ -1,0 +1,243 @@
+<resources>
+    <!-- XTIT: Title of the app. -->
+    <string name="app_name">MyFramework</string>
+
+    <!-- XMSG: Message to the user when no email client is available on their device. -->
+    <string name="no_email_client">There are no email clients installed.</string>
+
+    <!-- XFLD: Username field. -->
+    <string name="username">Username</string>
+
+    <!-- XFLD: Password field. -->
+    <string name="password">Password</string>
+
+    <!-- XFLD: Remember username feild. -->
+    <string name="remember_username">Remember username</string>
+
+    <!-- XBUT: Sign In button text. -->
+    <string name="sign_in">Sign In</string>
+
+    <!-- XLNK: Forgot username or password link to webpage. -->
+    <string name="forgot">Forgot username or password?</string>
+
+    <!-- XBUT: OK button. -->
+    <string name="ok">OK</string>
+
+    <string name="ariba_supplier">Ariba Supplier</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="dashboard_fragment">Dashboard</string>
+
+
+
+
+    <string name="user_profile">User Profile</string>
+    <string name="sign_out">Sign Out</string>
+
+
+    <!--Navigation Drawer Items-->
+    <string name="nav_item_home">Home</string>
+    <string name="nav_item_orders">Orders</string>
+    <string name="nav_item_invoices">Invoices</string>
+    <string name="nav_item_invoices_list">Invoice</string>
+    <string name="nav_item_orders_list">Order</string>
+    <string name="nav_item_otp">One-Time Password</string>
+    <string name="nav_item_settings">Settings</string>
+    <string name="nav_item_custSupport">Customer Support</string>
+    <string name="nav_item_legal">Legal</string>
+    <string name="nav_item_eula">End User Licesne Agreement</string>
+    <string name="nav_item_touse">Terms of Use</string>
+    <string name="nav_item_privacystmt">Privacy Statement</string>
+    <string name="nav_item_participationAgreement">Participation Agreement</string>
+    <string name="nav_item_sendAppLogs">Send Application Logs</string>
+    <string name="nav_item_signOut">Sign out</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="dashboard_tile_header_placeholer">header</string>
+    <string name="dashboard_tile_amount_placeholer">$100</string>
+    <string name="dashboard_tile_date_placeholer">1st Jan 2016</string>
+    <string name="dashboard_line_chart_time_header">Purchase Orders</string>
+    <string name="dashboard_bar_chart_currency_header">USD</string>
+    <string name="dashboard_bar_chart_time_header">Invoices Aging</string>
+    <string name="dashboard_chart_default_money">$ 0</string>
+    <string name="dashboard_tile_setting_header">Orders and invoices</string>
+    <string name="dashboard_notification_header_name">Robert James</string>
+    <string name="dashboard_notification_header_time_placeholder">7:47 PM</string>
+    <string name="dashboard_notification_detail_number_placeholder">65764</string>
+    <string name="dashboard_notification_detail_number_detail_placeholder">Lab Incorporate</string>
+    <string name="dashboard_notification_note_placeholder">We need to make few adjustments to the invoice sent last week</string>
+    <string name="dashboard_titledrop_textone">All Customer</string>
+    <string name="dashboard_titledrop_texttwo">My Customer</string>
+
+    <!-- Text for Welcome Screen-->
+    <string name="ariba_logo_sign_in"></string>
+    <string name="welcome_text">Welcome to Ariba Supplier</string>
+    <string name="end_user_agreement_acceptance_text">Installation and use of this mobile application is subject to the <a href= "http://app1328.lab1.ariba.com:13130/v2/api/deviceconfig/%sNetworkingService.sharedInstance().getDeviceCode()/termsofuse?access_token= %sNetworkingService.sharedInstance().getAccessToken()&amp; locale=en">End User License Agreement.</a></string>
+    <string name="ariba_network_touse_text">Since your last login to the Ariba Network, the terms and policies governing the user of the Ariba Network have been updated.<a href="https://svclq14.lab1.ariba.com/Authenticator.aw/ad/termsCenter?tou=supplier" style="text-decoration:none;">The Ariba Network Terms of Use</a> and Ariba Privacy Statement apply to use of the Ariba Network. Please review these terms and confirm acceptance before continuing use of the service.</string>
+    <string name="i_accept">I accept</string>
+    <string name="continue_btn_text">Continue</string>
+
+
+    <!--Text for Supplier Question Screen-->
+    <string name="option1">0 to 5</string>
+    <string name="option2">5 to 50</string>
+    <string name="option3">Over 50</string>
+    <string name="option4">Don\'t know</string>
+    <string name="supplier_question_text">Roughly how many POs and invoices do you have in a month?</string>
+    <string name="supplier_question_subText">We\'ll use this info to set up your notification feed.</string>
+
+
+    <!--Text for Supplier Role Screen-->
+    <string name="supplier_role_text">Choose the role that best matches your job.</string>
+    <string name="supplier_role_subText">We\'ll use this to set up the app with relevant info.</string>
+
+    <!--Text for Business Role-->
+    <string name="business_role_header_text">Which of the following best describes your business role?</string>
+    <string name="business_role_header_subText">We use this to show you info related to your role.</string>
+    <string name="item_list_header_no">No.</string>
+    <string name="item_list_header_item">Item</string>
+    <string name="detail_item_part_no">"Part No: "</string>
+    <string name="detail_item_qty">"Qty (unit): "</string>
+    <string name="detail_item_unite_price">"Unit Price: "</string>
+    <string name="detail_item_subtotal">"Subtotal : "</string>
+    <string name="invoice_detail_subitem_items">Items</string>
+    <string name="invoice_detail_subitem_info">Info</string>
+    <string name="invoice_detail_subitem_timeline">Timeline</string>
+    <string name="invoice_detail_subitem_messages">Messages</string>
+
+    <!--Text for ANMobileUserAction API-->
+    <string name="small">SMALL</string>
+    <string name="medium">MEDIUM</string>
+    <string name="large">LARGE</string>
+    <string name="unknown">UNKNOWN</string>
+    <string name="label_sent">Sent</string>
+    <string name="label_rejected">Rejected</string>
+    <string name="label_aproved">Approved</string>
+    <string name="label_paid">Paid</string>
+
+
+    <string-array name="nav_drawer_labels">
+        <item>@string/nav_item_home</item>
+        <item>@string/nav_item_orders</item>
+        <item>@string/nav_item_invoices</item>
+        <item>@string/nav_item_otp</item>
+        <item>@string/nav_item_settings</item>
+        <item>@string/nav_item_custSupport</item>
+        <item>@string/nav_item_legal</item>
+        <item>@string/nav_item_sendAppLogs</item>
+        <item>@string/nav_item_signOut</item>
+    </string-array>
+
+    <string-array name="elements_home"></string-array>
+    <string-array name="elements_orders"></string-array>
+    <string-array name="elements_invoices"></string-array>
+    <string-array name="elements_otp"></string-array>
+    <string-array name="elements_settings"></string-array>
+    <string-array name="elements_custSupport"></string-array>
+    <string-array name="elements_legal">
+        <item>End User License Agreement</item>
+        <item>Terms of Use</item>
+        <item>privacy Statement</item>
+    </string-array>
+    <string-array name="elements_sendAppLogs"></string-array>
+    <string-array name="elements_signOut"></string-array>
+
+    <string name="choosecustomer">Choose up to 8 customers</string>
+    <string name="pushnotifications">Push Notifications</string>
+    <string name="touchid">Touch ID</string>
+    <string name="mycustomers">My Customers</string>
+    <string name="login_screen_unauthorised">User or Password did not match</string>
+    <string name="global_session_expire">Session has been expired</string>
+    <string name="login_screen_login_error">Could not log in. Error is :</string>
+    <string name="invoice_detail_rejection_reason">See Rejection Reason</string>
+    <string name="touchid_not_configured">Secure lock screen has not set up.Go to Phone Settings to set up a fingerprint</string>
+    <string name="touch_id_for_supplier">Touch ID for \"Ariba Supplier\"</string>
+    <string name="touch_id_signin_confirmation">Place your finger on the Touch button to sign in to Ariba Supplier</string>
+    <string name="touch_id_signin_confirmation_step1">Do you want to use Touch ID for \n quicker access to the Ariba Supplier \n mobile app?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+    <!--Finerprint Authentication Strings-->
+    <string name="fingerprint_description">Confirm fingerprint to continue</string>
+    <string name="fingerprint_hint">Touch sensor</string>
+    <string name="password_description">Enter your store password to continue</string>
+    <string name="purchase">Purchase</string>
+    <string name="purchase_not_invalidated">Purchase not invalidated</string>
+    <string name="purchase_button_not_invalidated_description">
+        You can proceed to purchase with this button \n even if a new fingerprint is enrolled
+    </string>
+    <string name="fingerprint_not_recognized">Fingerprint not recognized. Try again</string>
+    <string name="fingerprint_success">Fingerprint recognized</string>
+    <string name="item_title">White Mesh Pluto Backpack</string>
+    <string name="item_price">$62.68</string>
+    <string name="item_description">Mesh backpack in white. Black textile trim throughout.</string>
+    <string name="purchase_done">Purchase successful</string>
+    <string name="new_fingerprint_enrolled_description">A new fingerprint was added to this device, so your password is required.</string>
+    <string name="use_fingerprint_in_future">Use fingerprint in the future</string>
+    <string name="use_fingerprint_to_authenticate_title">Use fingerprint to authenticate</string>
+    <string name="use_fingerprint_to_authenticate_key">use_fingerprint_to_authenticate_key</string>
+    <string name="cancel">Cancel</string>
+    <string name="use_password">Use password</string>
+
+
+    <!--String for OTP Screen-->
+    <string name="user_name">User Name</string>
+    <string name="one_time_password">One-Time Password</string>
+
+    <string name="dialog_order_invoice_date_range">Order and Invoices date ranges</string>
+    <string name="dialog_invoice_title">Invoices</string>
+    <string name="dialog_order_title">Orders</string>
+    <string name="dialog_purchase_order_date_range_title">Purchase order date range</string>
+    <string name="date_range_seekbar_24h">24h</string>
+    <string name="date_range_seekbar_7d">7d</string>
+    <string name="date_range_seekbar_14d">14d</string>
+    <string name="date_range_seekbar_31d">31d</string>
+    <string name="date_range_seekbar_90d">90d</string>
+    <string name="date_range_seekbar_60d">60d</string>
+    <string name="date_range_seekbar_3m">3m</string>
+    <string name="date_range_seekbar_12m">12m</string>
+    <string name="update">Update</string>
+    <string name="invoice_order_setting">Show pinned only</string>
+    <string name="invoice_order_setting_header">Apply Filter</string>
+    <string name="invoice_order_setting_status_header">FILTER BY STATUS</string>
+    <string name="invoice_order_setting_customer_header">FILTER BY CUSTOMER</string>
+    <string name="invoice_order_setting_clear">Clear Filters</string>
+
+    <string name="All">All</string>
+    <string name="PO_GROUP_NEW">New</string>
+    <string name="PO_GROUP_TO_CONFIRM">To Confirm</string>
+    <string name="PO_GROUP_CONFIRMED">Confirmed</string>
+    <string name="PO_GROUP_TO_SHIP">To Ship</string>
+    <string name="PO_GROUP_SHIPPED">Shipped</string>
+    <string name="PO_GROUP_TO_INVOICE">To Invoice</string>
+    <string name="PO_GROUP_INVOICED">Invoiced</string>
+    <string name="PO_GROUP_FAILED">Failed</string>
+    <string name="PO_GROUP_NEEDS_ATTENTION">Needs Attention</string>
+
+    <!--String for order item Screen-->
+    <string name="item">Item</string>
+    <string name="line_no">Line #</string>
+    <string name="type">Type</string>
+    <string name="part_no">Part #</string>
+    <string name="description">Description</string>
+    <string name="ship_to">Ship to</string>
+    <string name="quantity">Qty (Unit)</string>
+    <string name="need_by">Need by</string>
+    <string name="unit_price">Unit Price</string>
+    <string name="subtotal">Subtotal</string>
+
+    <!--String for order info screen-->
+    <string name="street_address">Street Address</string>
+    <string name="city">City</string>
+    <string name="state">State #</string>
+    <string name="postal_code">Postal Code</string>
+    <string name="country">Country</string>
+    <string name="order_list_headervalue" formatted="false">%d  %s in last %s from %s</string>
+
+</resources>

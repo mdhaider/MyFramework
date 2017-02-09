@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/marginFromLeft"
+        android:layout_marginLeft="@dimen/marginFromLeft"
+        android:textSize="@dimen/nav_smaller_text"
+        android:textColor="@color/c31"
+        android:text="@string/user_name"/>
+
+    <android.support.v7.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/marginFromTop7"
+        android:layout_marginLeft="@dimen/marginFromLeft"
+        android:textSize="@dimen/nav_large_text"
+        android:textColor="@color/c29"
+        android:text="nativeseller@sap.com"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_1"
+        android:layout_marginTop="@dimen/marginFromTop7"
+        android:layout_marginStart="@dimen/marginFromLeft"
+        android:layout_marginEnd="@dimen/marginFromLeft"
+        android:background="@color/c32" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/marginFromTop7"
+        android:layout_marginLeft="@dimen/marginFromLeft"
+        android:textSize="@dimen/nav_smaller_text"
+        android:textColor="@color/c31"
+        android:text="@string/one_time_password"/>
+
+    <android.support.v7.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/marginFromTop7"
+        android:layout_marginLeft="@dimen/marginFromLeft"
+        android:textSize="@dimen/nav_large_text"
+        android:textColor="@color/c29"
+        android:text="4803 8683"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_1"
+        android:layout_marginTop="@dimen/marginFromTop7"
+        android:layout_marginStart="@dimen/marginFromLeft"
+        android:layout_marginEnd="@dimen/marginFromLeft"
+        android:background="@color/c32" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/marginFromTop2"
+        android:layout_marginLeft="@dimen/marginFromLeft"
+        android:textSize="@dimen/nav_smaller_text"
+        android:textColor="@color/c31"
+        android:text="25 Seconds Remaining"/>
+
+</LinearLayout>
